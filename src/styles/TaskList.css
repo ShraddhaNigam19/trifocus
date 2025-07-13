@@ -1,0 +1,121 @@
+.tasklist-container {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.tasklist-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f51b5;
+  margin-bottom: 16px;
+}
+
+.tasklist-input-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.tasklist-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.tasklist-button {
+  padding: 10px 18px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tasklist-button:disabled {
+  background-color: #9fa8da;
+  cursor: not-allowed;
+}
+
+.tasklist-progress {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tasklist-loading {
+  font-size: 14px;
+  color: #888;
+}
+
+.tasklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tasklist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f6f6f6;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 14px;
+  transition: background 0.3s ease;
+}
+
+.tasklist-item.done {
+  background-color: #e0f7e9;
+  border-color: #81c784;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.task-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.tasklist-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon.edit {
+  color: #2196f3;
+}
+
+.icon.delete {
+  color: #f44336;
+}
+
+.save-btn {
+  background: none;
+  border: none;
+  color: #4caf50;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tasklist-success {
+  margin-top: 20px;
+  background: #dcedc8;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #33691e;
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.habit-tracker {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
+}
+
+.habit-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.habit-form input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.habit-form button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.habit-list {
+  list-style: none;
+  padding: 0;
+}
+
+.habit-list li {
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+.habit-list li.completed {
+  color: green;
+  font-weight: bold;
+  text-decoration: line-through;
+}
